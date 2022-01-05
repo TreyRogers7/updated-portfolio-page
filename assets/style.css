@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: blanchedalmond;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 200%;
+}
+h3 {
+    font-size: 200%;
+}
+main {
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: row;
+}
+a:hover {
+    background-color: powderblue;  
+}
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: purple;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: none;
+}
+.navbar {
+    background-color: blanchedalmond;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: inline;
+}
+.card {
+    margin: 3px;
+    padding: 3px;
+    border: dashed blanchedalmond;
+    /* display: flex; */
+    /* float: left; */
+    flex-basis: 30%;
+}
+#mainCard {
+    size: 300px;
+}
+/* article {
+    display: flex;
+    flex-direction: row;
+} */
+#projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+footer {
+    background-color: blanchedalmond;
+    color: black;
+}
+.image1 {
+    border: 10px solid black;
+    flex-wrap: wrap;
+    display: flex;
+}
+aside {
+    color: black;
+}
+
+#About-Me {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.left {
+    border: dashed blanchedalmond;
+    /* width: 20%; */
+    height: 350px; 
+}
+
+#planner {
+    size: 200px;
+}
